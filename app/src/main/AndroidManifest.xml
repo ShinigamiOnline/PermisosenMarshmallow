@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="permisosenmarshmallow.example.org.permisosenmarshmallow">
 
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
